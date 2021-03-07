@@ -1,2 +1,3 @@
-1. Denish Perest Ozturkler/ Yasar Birinci / Hayal Irem Ozturkler
-2. Fork it...
+Denish Perest Ozturkler/ Yasar Birinci / Hayal Irem Ozturkler
+
+Run, fun.
