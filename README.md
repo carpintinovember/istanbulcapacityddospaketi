@@ -1,2 +1,2 @@
-1. Denish Perest Ozturkler/ Yasar Birinci / Hayal Irem Ozturkler
-2. Fork it...
+Ehehe, bazı istekler doğrultusunda şahıslar kaldırıldı.
+Sadece test amaçlı kullanımlar içindir!!
