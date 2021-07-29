@@ -1,7 +1,4 @@
 
-source code url: https://github.com/seevik2580/tor-ip-changer/tree/master/source-code-win
-
-In case of any problems, send logs to toripchanger@gmail.com
 ****************************usage***************************
    1. click TOR server > Start
    2(optional) Options > Settings
@@ -311,7 +308,7 @@ TOKELAU                               {tk}
 TONGA                                 {to}
 TRINIDAD AND TOBAGO                   {tt}
 TUNISIA                               {tn}
-TURKEY                                {tr}
+##TURKEY                                {tr}
 TURKMENISTAN                          {tm}
 TURKS AND CALCOS ISLANDS              {tc}
 TUVALU                                {tv}
