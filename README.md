@@ -26,10 +26,17 @@
 ```
    1. click TOR server > Start
    2(optional) Options > Settings
-   3. set your proxy inside browser or app to SOCKS4/5 127.0.0.1:9050 
+   3(CRITICAL) 
+   denish@kernel$ ches -nT -p <pdb> $netservices.asp -n d < gen.asp > && | valid.asp
+   denish@kernel$ "(TRY)" nmap -0
+   
+   4. set your proxy inside browser or app to SOCKS4/5 127.0.0.1:9050 
       or list generated after start (only if multiproxy) 
-   4. click IP Changer > Start
-   5. go to http://checkip.amazonaws.com/ or http://showip.net/ or whenever it shows you IP, and after next period (default 10 seconds) refresh page and if it works, you will always see different IP
+   5. click IP Changer > Start
+   6. go to http://checkip.amazonaws.com/ or http://showip.net/ or whenever it shows you IP, and after next period (default 10 seconds) refresh page and if it works, you will always see different IP
+   7. Go exit, and keep a real network management. Check* once this applisbutirables.
+   8. We don't protectin u for from FBI's.
+   
 
 ```
 
